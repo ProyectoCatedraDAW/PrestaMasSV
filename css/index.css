@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+.card-header {
+    background: #ffa420;
+}
+
+.card-header, h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    height: 60px;
+    margin: 45px 0 0 0;
+}
+
+#añadir {
+    display: none;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+#btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+/*-----FORMULARIO DE INICIO DE SESION-----*/
+
+.container {
+    max-width: 440px;
+    padding: 0 20px;
+    margin: 50px auto;
+}
+
+.wrapper {
+    width: 100%;
+    background: #f9f9f9;
+    border-radius: 10px;
+}
+
+.wrapper .title {
+    height: 60px;
+    background: #3065AC;
+    border-radius: 5px 5px 0 0;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper form {
+    padding: 50px 25px 25px 25px;
+}
+
+.wrapper form .row {
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+
+.wrapper form .row input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding-left: 60px;
+    border-radius: 5px;
+    border: 1px solid lightslategray;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.wrapper form .row i {
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    color: #fff;
+    font-size: 18px;
+    background: #3065AC;
+    border: 1px solid #3065AC;
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper form .pass {
+    margin: -8px 0 20px 0;
+}
+
+.wrapper form .pass a {
+    color: #fe0000;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.wrapper form .button input {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 0px;
+    background: #3065AC;
+    border: 1px solid #3065AC;
+    cursor: pointer;
+}
+
+.wrapper form .button input:hover {
+    color: #3065AC;
+    background: #fff;
+    border: 1px solid #3065AC;
+}
+
+.wrapper .row input {
+    height: 5vh;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.container div a input {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    background: #207b6e;
+    border: 1px solid #207b6e;
+    cursor: pointer;
+}
+
+.container div a input:hover {
+    color: #207b6e;
+    background: #fff;
+    border: 1px solid #207b6e;
+}
+
+/*-----DISEÑO TABLA-----*/
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffa420;
+    color: white;
+    text-align: center;
+}
+
+/*----LISTA NEGRA TABLA-----*/
+
+#lista {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#lista td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#lista tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#lista tr:hover {
+    background-color: #ddd;
+}
+
+#lista th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #000;
+    color: white;
+    text-align: center;
+}
